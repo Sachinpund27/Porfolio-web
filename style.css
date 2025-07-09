@@ -14,8 +14,8 @@ body, html {
   
   .glow {
     font-size: 2.8rem;
-    color: #fd02d0;
-    text-shadow: 0 0 10px #fd02d0, 0 0 20px #fd02d0;
+    color: #00fff7;
+    text-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
   }
   
   nav {

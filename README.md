@@ -1,6 +1,18 @@
-# Sachin Pund — Web UI Developer Portfolio
+# Sachin Pund — React Portfolio
 
-React.js portfolio based on the approved V3 UI concept.
+A custom React + Vite portfolio based on the approved `sachin-web-ui-developer-mockup-v3.html` design.
+
+## Included
+
+- React.js + Vite
+- Custom CSS only
+- Interactive browser perspective effect
+- Responsive layout
+- CV-based experience and skills
+- 3D-style Developer DNA section
+- No Projects section
+- No Bootstrap, Tailwind, Three.js, GSAP, icon libraries, or UI libraries
+- GitHub Pages base path configured for `/Portfolio-web/`
 
 ## Run locally
 
@@ -19,13 +31,8 @@ The production files are generated in `dist/`.
 
 ## GitHub Pages
 
-This project is intentionally dependency-light: React + ReactDOM + Vite.
+The Vite base is already configured for:
 
-Before publishing, update the Vite `base` in `vite.config.js` if the repository is hosted at a project URL such as:
-`https://USERNAME.github.io/REPOSITORY/`
+`/Portfolio-web/`
 
-Then build and publish the `dist/` folder using GitHub Pages.
-
-## Important
-
-The Selected Work cards are placeholders because the current CV does not contain confirmed project details. Replace them with your actual projects/screenshots before publishing.
+Use GitHub Actions to build and deploy the `dist` folder.
